@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Temperature Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sec1">
+            <h3 class="h3">TEMPERATURE CONVERTER</h3>
+    <div class="container">
+        <form id="calcTemp" onsubmit="calculateTemperature();
+        return false">
+        <label for="temp">Enter temperature to convert:</label>
+        <br>
+        <input type="number" name="temp" id="temp"value="0">
+        <select name="temp_chng" id="temp_chng">
+        <option value="cel">&#176;Celsius</option>
+        <option value="fah">&#176;Fahrenheit</option>
+    </select>
+    <br>
+    <input type="submit" name="temp" id="submit">
+    <br>
+    <div class="box">
+    <span id="result"></span>
+</div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</div>
+<div class="sec2">
+    <footer>
+        Copyright &copy; TemperatureConverter.com | All rights reserved
+    </footer>
+</div>
+</body>
+</html>
